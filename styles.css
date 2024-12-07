@@ -63,16 +63,10 @@ body {
 .subtitle3 a 
 {
     color: #b1b1b1;
-    text-decoration: none;
     border-bottom: 1px solid #b1b1b1;
     transition: color 0.3s ease, border-bottom-color 0.3 ease;
 }
 
-.subtitle3 a:hover 
-{
-    color: #ffffff;
-    border-bottom-color: #ffffff;
-}
 
 .contact-button {
     border: 1px solid #b1b1b1;
@@ -80,8 +74,4 @@ body {
     border-radius: 3px;
     color: #b1b1b1;
     transition: background-color 0.3s ease;
-}
-
-.contact-button:hover{
-    background-color: rgba(100, 255, 218, 0.1);
 }
