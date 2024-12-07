@@ -60,13 +60,6 @@ body {
     margin: 20px 0;
 }
 
-.subtitle3 a 
-{
-    color: #b1b1b1;
-    border-bottom: 1px solid #b1b1b1;
-    transition: color 0.3s ease, border-bottom-color 0.3 ease;
-}
-
 
 .contact-button {
     border: 1px solid #b1b1b1;
