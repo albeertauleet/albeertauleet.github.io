@@ -1,0 +1,87 @@
+body {
+    background-image: url('images/moon.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.logo {
+    position: fixed;
+    top: 10px;     
+    left: 20px;   
+    z-index: 1000;  
+}
+
+.logo img {
+    width: 50px;  
+    height: auto; 
+    transition: transform 0.3s; 
+}
+.carga
+{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 200px auto;
+    margin-left: 400px;
+    padding: 0 20px;
+}
+
+.title
+{
+    color: #b1b1b1;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.subtitle
+{
+    color: #ccd6f6;
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.subtitle2
+{
+    color: #8892b0;
+    font-size: 2em;
+    max-width: 700px;
+    margin: 0;
+}
+
+.subtitle3
+{
+    color: #8892b0;
+    margin: 20px 0;
+}
+
+.subtitle3 a 
+{
+    color: #b1b1b1;
+    text-decoration: none;
+    border-bottom: 1px solid #b1b1b1;
+    transition: color 0.3s ease, border-bottom-color 0.3 ease;
+}
+
+.subtitle3 a:hover 
+{
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.contact-button {
+    border: 1px solid #b1b1b1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #b1b1b1;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover{
+    background-color: rgba(100, 255, 218, 0.1);
+}
